@@ -1,0 +1,158 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 240,
+  height = 176,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "donjon",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 96,
+  height = 16,
+  pattern = "8",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 0,
+  width = 96,
+  height = 16,
+  pattern = "8",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 64,
+  pattern = "5",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 16,
+  height = 64,
+  pattern = "5",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 16,
+  width = 16,
+  height = 64,
+  pattern = "7",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 64,
+  width = 16,
+  height = 96,
+  pattern = "7",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 160,
+  width = 208,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 208,
+  height = 144,
+  pattern = "32",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "15",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "15",
+}
+
+teletransporter{
+  layer = 0,
+  x = 112,
+  y = -16,
+  width = 16,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "C2",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 80,
+  width = 16,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "D1",
+  destination = "_side",
+}
+

@@ -1,0 +1,322 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 240,
+  height = 176,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "donjon",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 240,
+  height = 176,
+  pattern = "15",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 72,
+  height = 8,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 8,
+  width = 8,
+  height = 40,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "5",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 16,
+  height = 32,
+  pattern = "5",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 144,
+  width = 240,
+  height = 32,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 128,
+  width = 192,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "4",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 0,
+  width = 16,
+  height = 128,
+  pattern = "7",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 0,
+  width = 16,
+  height = 144,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "8",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "8",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "5",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "9",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 48,
+  width = 96,
+  height = 16,
+  pattern = "8",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "54",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 8,
+  height = 40,
+  pattern = "54",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 64,
+  height = 8,
+  pattern = "54",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 0,
+  width = 8,
+  height = 48,
+  pattern = "54",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "54",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "28",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "28",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "28",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "28",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "28",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "28",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 80,
+  width = 16,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "G3",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 72,
+  y = -16,
+  width = 32,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "E4",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 160,
+  y = -16,
+  width = 16,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "E4",
+  destination = "_side",
+}
+

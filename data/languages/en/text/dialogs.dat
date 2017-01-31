@@ -1,0 +1,9 @@
+dialog{
+  id = "_treasure.sword.1",
+  text = [[
+You got a sword !
+Now you can slain every
+ennemies you meet
+]]
+}
+
